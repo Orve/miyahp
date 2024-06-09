@@ -1,3 +1,47 @@
-.header {
-    
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
+
+body {
+	-webkit-font-feature-settings: 'palt';
+	font-feature-settings: 'palt';
+}
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/* PC版のスタイル */
+.header {
+    position: fixed;  /* 位置を固定する */
+    top: 0;  /* 固定する位置を指定 */
+    left: 0;  /* 固定する位置を指定 */
+    width: 100%;  /* ヘッダーの幅 */
+    height: 100px;  /* ヘッダーの高さ */
+    background: #ee33ac4f;  /* 背景色 */
+}
+
+.header_logo{
+    height: 95%;
+    margin-left: 2vw;
+}
+
+body{
+    max-width: 100vw;
+}
+
+.detail{
+    max-width: 49%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: flex;
+}
+
+.stand_view01{
+    width: 40vw;
+}
+
+/* 以下SP版のスタイル */
